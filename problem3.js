@@ -7,7 +7,6 @@ const itemCounter = {};
 a.map((item)=>{
     itemCounter[item] = itemCounter[item]+1 || 1;
 });
-console.log(itemCounter)
 
 let key = Object.keys(itemCounter);
 let value = Object.values(itemCounter);
